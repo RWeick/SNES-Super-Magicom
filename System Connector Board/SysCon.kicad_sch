@@ -1,0 +1,6116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cee11636-d300-4f31-addf-88ca03a84a7f")
+	(paper "A3")
+	(lib_symbols
+		(symbol "!SMC:SNES_Connector_Game"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN1"
+				(at 0.635 -48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0.635 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "!SF7:Cartridge Slot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SNES_Connector_Game_1_1"
+				(rectangle
+					(start -12.7 44.45)
+					(end 13.97 -44.45)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Game Cartridge Slot"
+					(at -0.762 48.006 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 41.91 0)
+					(length 2.54)
+					(name "Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "/IRQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 39.37 0)
+					(length 2.54)
+					(name "EXPAND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "/Read"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "CIC_Out_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "CIC_In_P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -25.4 0)
+					(length 2.54)
+					(name "/RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -27.94 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -34.29 0)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -36.83 0)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 36.83 0)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -39.37 0)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -41.91 0)
+					(length 2.54)
+					(name "L_Audio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 41.91 180)
+					(length 2.54)
+					(name "/WRAM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 39.37 180)
+					(length 2.54)
+					(name "REFRESH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 36.83 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 34.29 180)
+					(length 2.54)
+					(name "/PAWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 25.4 180)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 22.86 180)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 20.32 180)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 34.29 0)
+					(length 2.54)
+					(name "/PARD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 17.78 180)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 15.24 180)
+					(length 2.54)
+					(name "BA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 12.7 180)
+					(length 2.54)
+					(name "BA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 10.16 180)
+					(length 2.54)
+					(name "BA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 7.62 180)
+					(length 2.54)
+					(name "BA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 5.08 180)
+					(length 2.54)
+					(name "BA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "BA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "BA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "BA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "/CART"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 27.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -17.78 180)
+					(length 2.54)
+					(name "/Write"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -20.32 180)
+					(length 2.54)
+					(name "CIC_Out_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -22.86 180)
+					(length 2.54)
+					(name "CIC_In_P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -25.4 180)
+					(length 2.54)
+					(name "CPU_Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -27.94 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -34.29 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 25.4 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -36.83 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -39.37 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -41.91 180)
+					(length 2.54)
+					(name "R_Audio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "!SMC:SNES_Connector_Sys"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN2"
+				(at 0.635 -48.26 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 0.635 -45.72 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "!SF7:Cartridge Slot"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SNES_Connector_Sys_1_1"
+				(rectangle
+					(start -12.7 44.45)
+					(end 13.97 -44.45)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "System Edge Connector"
+					(at -0.762 48.006 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 41.91 0)
+					(length 2.54)
+					(name "Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 15.24 0)
+					(length 2.54)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "/IRQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 39.37 0)
+					(length 2.54)
+					(name "EXPAND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "/Read"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "CIC_Out_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "CIC_In_P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -25.4 0)
+					(length 2.54)
+					(name "/RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -27.94 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -34.29 0)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -36.83 0)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 36.83 0)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -39.37 0)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -41.91 0)
+					(length 2.54)
+					(name "L_Audio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 41.91 180)
+					(length 2.54)
+					(name "/WRAM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 39.37 180)
+					(length 2.54)
+					(name "REFRESH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 36.83 180)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 34.29 180)
+					(length 2.54)
+					(name "/PAWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 27.94 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 25.4 180)
+					(length 2.54)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 22.86 180)
+					(length 2.54)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 20.32 180)
+					(length 2.54)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 34.29 0)
+					(length 2.54)
+					(name "/PARD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 17.78 180)
+					(length 2.54)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 15.24 180)
+					(length 2.54)
+					(name "BA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 12.7 180)
+					(length 2.54)
+					(name "BA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 10.16 180)
+					(length 2.54)
+					(name "BA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 7.62 180)
+					(length 2.54)
+					(name "BA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 5.08 180)
+					(length 2.54)
+					(name "BA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "BA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "BA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "BA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "/CART"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 27.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -17.78 180)
+					(length 2.54)
+					(name "/Write"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -20.32 180)
+					(length 2.54)
+					(name "CIC_Out_P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -22.86 180)
+					(length 2.54)
+					(name "CIC_In_P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -25.4 180)
+					(length 2.54)
+					(name "CPU_Clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -27.94 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -34.29 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 25.4 0)
+					(length 2.54)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -36.83 180)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -39.37 180)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -41.91 180)
+					(length 2.54)
+					(name "R_Audio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 22.86 0)
+					(length 2.54)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 20.32 0)
+					(length 2.54)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 17.78 0)
+					(length 2.54)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_3_Bridged12"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Bridged12"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged12*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_0_1"
+				(rectangle
+					(start -1.016 0.508)
+					(end -0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Bridged12_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Logic_Programmable:GAL16V8"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "GAL16V8"
+				(at 1.27 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "GAL PLD 16V8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* PDIP* SOIC* SO* PLCC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GAL16V8_0_0"
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "GAL16V8_0_1"
+				(rectangle
+					(start -8.89 13.97)
+					(end 8.89 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "GAL16V8_1_1"
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 3.81)
+					(name "I1/CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 3.81)
+					(name "I10/~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 -5.08 180)
+					(length 3.81)
+					(name "IO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 -2.54 180)
+					(length 3.81)
+					(name "IO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 3.81)
+					(name "IO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 2.54 180)
+					(length 3.81)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 5.08 180)
+					(length 3.81)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 7.62 180)
+					(length 3.81)
+					(name "I03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 10.16 180)
+					(length 3.81)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 12.7 180)
+					(length 3.81)
+					(name "IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 3.81)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 3.81)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 3.81)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 3.81)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 3.81)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 3.81)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 3.81)
+					(name "I8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 3.81)
+					(name "I9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 350.52 121.92)
+		(uuid "bcadb6c2-5064-474c-85ee-aeb9999aaa96")
+	)
+	(wire
+		(pts
+			(xy 293.37 110.49) (xy 293.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063f3ec8-fabb-49c0-bf96-00d8b5b95f6c")
+	)
+	(wire
+		(pts
+			(xy 293.37 104.14) (xy 337.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d917a4f-da18-4e1f-85dc-0e7672d5df5d")
+	)
+	(wire
+		(pts
+			(xy 337.82 104.14) (xy 337.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce37b5f0-2f54-4bdf-9386-f881bf8f33c7")
+	)
+	(rectangle
+		(start 212.09 81.28)
+		(end 369.57 194.31)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95c6e210-20b3-49c6-8ec1-8345f39482df)
+	)
+	(text "HIROM Mod"
+		(exclude_from_sim no)
+		(at 289.56 90.17 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "1cd7d99f-8c34-4319-816a-184ee9f54cde")
+	)
+	(label "SNES.A0"
+		(at 111.76 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0080bba6-cd51-4026-bead-05e484500385")
+	)
+	(label "SNES.~{Read}"
+		(at 127 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0674cf6b-5363-40c7-ad6e-fea1c84560f8")
+	)
+	(label "SNES.CIC.P1"
+		(at 128.27 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06e77b32-bdc2-4f4e-ac8d-2513b3aa85f6")
+	)
+	(label "SNES.BA0"
+		(at 93.98 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0811807a-bb27-45f8-b505-87742f7d1b92")
+	)
+	(label "SNES.A2"
+		(at 105.41 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "084f2335-cbcf-4c42-80d2-d6907e326b35")
+	)
+	(label "SNES.~{Cart}.Sys"
+		(at 350.52 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "091ab52b-c5be-4bd0-859d-434bb4e2cd1c")
+	)
+	(label "SNES.D6"
+		(at 121.92 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a0fd351-470c-4bbd-99bf-d12c300c4193")
+	)
+	(label "SNES.D5"
+		(at 118.11 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0aa8ad31-f7f9-4e4f-a205-f61d54a7fb44")
+	)
+	(label "SNES.~{Cart}.Sys"
+		(at 114.3 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ac2d751-9bd6-4c2a-a1ef-b79713c9dac2")
+	)
+	(label "SNES.A9"
+		(at 88.9 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e3bf041-347e-4f9f-a8d4-0a205b81d13e")
+	)
+	(label "SNES.A15"
+		(at 350.52 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eb13f25-5952-4047-9fe3-e812be9b2f98")
+	)
+	(label "GND"
+		(at 80.01 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fc645d0-48c2-415c-8401-8a30d88dca97")
+	)
+	(label "SNES.PA7"
+		(at 72.39 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "103b01f7-9425-44a7-bb6e-809348d1f4d9")
+	)
+	(label "SNES.Expand"
+		(at 68.58 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "125741c3-16ae-49f0-81cd-e6ba727c5413")
+	)
+	(label "SNES.PA3"
+		(at 146.05 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13fd8883-89a3-4961-baea-f96dbd8425e0")
+	)
+	(label "SNES.~{WRAM}"
+		(at 66.04 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1694e74c-2c8a-4486-ac11-945ab8f0e844")
+	)
+	(label "SNES.~{IRQ}"
+		(at 113.03 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17d3ead9-6086-404c-9f7e-692ec62d62df")
+	)
+	(label "SNES.PA5"
+		(at 147.32 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f0b43d-100b-421a-9d50-3ab92eebf3f6")
+	)
+	(label "SNES.A15"
+		(at 274.32 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18f69283-b553-4a1c-9a34-0825ef8e3649")
+	)
+	(label "SNES.BA4"
+		(at 350.52 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a7c7ba0-74cd-44f3-97fe-8ddf390cea38")
+	)
+	(label "SNES.BA2"
+		(at 99.06 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ad2b0bc-fb08-4b56-ade9-d6f067d46345")
+	)
+	(label "SNES.D7"
+		(at 123.19 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b418057-ac64-4fd7-ab54-f78bf50942d7")
+	)
+	(label "SNES.~{Cart}.GAL"
+		(at 265.43 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b69edd9-04c4-4c16-81ac-0ca4a5964958")
+	)
+	(label "SNES.BA5.Mod"
+		(at 105.41 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc2ce3f-6276-4486-9b0d-1f8fd53a9c2e")
+	)
+	(label "SNES.D2"
+		(at 120.65 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2343278b-6b16-40c3-9a00-2ae2011bc624")
+	)
+	(label "SNES.~{PARD}"
+		(at 74.93 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "234806c7-6d21-48b3-9f7c-c3877534677c")
+	)
+	(label "SNES.A13.GAL"
+		(at 302.26 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23ef92c1-aaf8-4763-811d-6edd9d843de3")
+	)
+	(label "SNES.A4"
+		(at 101.6 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "253777b8-a099-4ea4-9428-0fecf661e044")
+	)
+	(label "SNES.D7"
+		(at 124.46 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2584018e-fc76-4713-bc4a-afcc6cdafd1a")
+	)
+	(label "SNES.CIC.P2"
+		(at 128.27 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2598a76a-b3d4-463b-bc65-8b087ee2964a")
+	)
+	(label "SNES.A2"
+		(at 106.68 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2605abf3-3995-4074-babd-f1b272e111fd")
+	)
+	(label "SNES.A10"
+		(at 85.09 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26d803f3-bd97-4b86-83c5-eb594f9c9c1f")
+	)
+	(label "SNES.~{RESET}"
+		(at 134.62 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29d42869-7803-4d80-99a9-a7e5fb1bbec3")
+	)
+	(label "SNES.BA1"
+		(at 95.25 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cb1b87a-11e7-4366-b918-44e2f058dfca")
+	)
+	(label "SNES.PA4"
+		(at 147.32 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f19abd9-d845-4f13-a337-c81771fdfdf6")
+	)
+	(label "SNES.PA2"
+		(at 146.05 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2f3f9c87-75f7-4c96-b2e5-5f976d6301e8")
+	)
+	(label "SNES.PA2"
+		(at 144.78 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fea9ef0-444b-4c89-b65a-8e75c8ccf45f")
+	)
+	(label "SNES.A11"
+		(at 83.82 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30b32b44-b9bb-4075-a31b-567f9cd3bc68")
+	)
+	(label "SNES.A13.GAL"
+		(at 325.12 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30c98fff-794a-4edf-a5d4-b419f7290964")
+	)
+	(label "SNES.A6"
+		(at 95.25 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30e30029-62a7-41b0-90d0-55ee69131ce8")
+	)
+	(label "SNES.A3"
+		(at 104.14 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31bd9e61-91b3-4602-af78-4d3b05171f00")
+	)
+	(label "SNES.BA6.GAL"
+		(at 325.12 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33cc56a7-2569-4959-8bbc-33ea34f00457")
+	)
+	(label "GND"
+		(at 293.37 115.57 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35cea405-b387-4f19-aed9-bcf8852187ad")
+	)
+	(label "SNES.D2"
+		(at 121.92 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36984c47-3753-4033-8f73-20d76f59cfb0")
+	)
+	(label "SNES.A1"
+		(at 107.95 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "399630d8-0cee-439b-b6c3-18f85b68e68a")
+	)
+	(label "SNES.Expand"
+		(at 69.85 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a2703e6-a367-45f7-8f78-f8b3002f18a6")
+	)
+	(label "SNES.L_Audio"
+		(at 149.86 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3ad7c91f-fa69-4c5e-9cb5-73860f7845f0")
+	)
+	(label "SNES.BA7"
+		(at 111.76 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bc9d82c-e564-4a0d-904b-7198fc81ebe9")
+	)
+	(label "SNES.BA5.GAL"
+		(at 325.12 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "427c3507-c125-4bff-9680-fed9b1009767")
+	)
+	(label "SNES.A6"
+		(at 96.52 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "43dab56b-5480-4a32-8268-7ea387c55050")
+	)
+	(label "SNES.A13.Sys"
+		(at 312.42 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "460c977e-1e7d-48a7-b0ea-48aa93f86347")
+	)
+	(label "SNES.~{Cart}.Sys"
+		(at 275.59 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4837324a-081f-4a06-9d9f-08998ad30e28")
+	)
+	(label "SNES.A14.GAL"
+		(at 325.12 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49d0bbc7-2327-4944-ae2e-536ee4e3bd16")
+	)
+	(label "SNES.CPU.Clk"
+		(at 134.62 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a238e69-e464-48cc-848e-5da74945d7cd")
+	)
+	(label "SNES.D4"
+		(at 115.57 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50fd3aa9-320f-4515-b6d1-e84d87c9401b")
+	)
+	(label "SNES.~{IRQ}"
+		(at 114.3 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52ddb11a-391b-4088-b092-88d0021dd8e2")
+	)
+	(label "SNES.R_Audio"
+		(at 151.13 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "531baeee-d269-4979-9996-6ec86dab8ee8")
+	)
+	(label "SNES.BA5"
+		(at 106.68 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "535c9823-be96-4dfd-82ce-00a26a748ef3")
+	)
+	(label "GND"
+		(at 80.01 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "568b4427-7e4e-4340-8549-5a641ec4a49d")
+	)
+	(label "SNES.A15.Mod"
+		(at 90.17 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56a80a39-dce3-4dd5-9714-52f7d0dc153c")
+	)
+	(label "SNES.CPU.Clk"
+		(at 133.35 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5728c68d-c1ce-4aff-9a2a-ae924592c082")
+	)
+	(label "SNES.A3"
+		(at 102.87 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59fe164e-4d90-4ff4-bced-77c5e8f07102")
+	)
+	(label "SNES.BA4"
+		(at 241.3 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a5c22fc-4638-4d3d-8922-3a5cd8027985")
+	)
+	(label "SNES.D3"
+		(at 124.46 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b37007d-e74b-4d65-9a83-c3e9d1ae2fc1")
+	)
+	(label "SNES.BA4.GAL"
+		(at 231.14 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bba142d-88d7-472f-92f3-406e558a770c")
+	)
+	(label "SNES.A1"
+		(at 109.22 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bbea9e0-9f37-4ea9-987e-7f965beb2dde")
+	)
+	(label "SNES.D6"
+		(at 120.65 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c3567a4-bdea-4da0-abf7-2e967023a355")
+	)
+	(label "SNES.~{WRAM}"
+		(at 67.31 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cc0f80d-ccd0-447f-a892-2917abf07262")
+	)
+	(label "VCC"
+		(at 135.89 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8ce044-aec6-4146-9883-8f35e00487c4")
+	)
+	(label "SNES.A12"
+		(at 82.55 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f246d31-bf1d-4581-99f7-4f569c065b72")
+	)
+	(label "SNES.Refresh"
+		(at 68.58 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5faeb477-4e8d-4739-a1ec-e986da015515")
+	)
+	(label "SNES.PA6"
+		(at 72.39 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "617cac5a-5ba9-45a5-abd7-e4c578107f30")
+	)
+	(label "SNES.BA3"
+		(at 100.33 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62f823ce-ecc4-4035-af1f-61f96c88194b")
+	)
+	(label "SNES.~{RESET}"
+		(at 133.35 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a381dc7-186f-4732-8df6-c76bb17ba8b9")
+	)
+	(label "SNES.A9"
+		(at 87.63 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bad7b7c-335e-48e6-b3c0-11df51327921")
+	)
+	(label "SNES.A15.GAL"
+		(at 264.16 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c56f098-1eed-43de-82e2-04731ec2e520")
+	)
+	(label "SNES.PA3"
+		(at 144.78 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f3c16fe-3f0d-42d5-bdb1-2cd527994ebe")
+	)
+	(label "SNES.D1"
+		(at 118.11 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73a4a730-71a1-487d-bad0-c1738014d5c9")
+	)
+	(label "SNES.BA4.Mod"
+		(at 102.87 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d01413-0408-46bd-a6fc-1f12a86030a2")
+	)
+	(label "SNES.BA6"
+		(at 238.76 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "749dec36-09e7-435f-8b5f-279c97bc4126")
+	)
+	(label "SNES.D0"
+		(at 116.84 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74bff831-9e3b-45b3-8277-2d620553d013")
+	)
+	(label "SNES.BA7"
+		(at 325.12 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74cc4efd-5d73-4a5a-b106-e1296d7251c3")
+	)
+	(label "SNES.R_Audio"
+		(at 149.86 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79426077-8357-4a81-9666-ebf433b75f89")
+	)
+	(label "SNES.A11"
+		(at 82.55 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ed2b628-560c-4fcc-b602-59372db72b0f")
+	)
+	(label "SNES.BA6"
+		(at 109.22 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fdd03d0-e5e4-4ca4-8697-2c2e9eeb8785")
+	)
+	(label "SNES.A10"
+		(at 86.36 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80b7403a-dfef-461b-923e-4b819ee56799")
+	)
+	(label "SNES.BA5"
+		(at 240.03 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "824d50c1-bed0-4b0f-9842-a951ce91b0d2")
+	)
+	(label "SNES.~{Write}"
+		(at 125.73 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84c70c0a-44e6-48fa-beb6-a65200bafa12")
+	)
+	(label "SNES.A13.Sys"
+		(at 86.36 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8650ad9f-afac-46d6-ae25-16c2c88cfc88")
+	)
+	(label "SNES.CIC.P7"
+		(at 132.08 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87298b2e-1429-4253-b645-8fd7640d2a6c")
+	)
+	(label "SNES.Clk"
+		(at 67.31 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88926d1f-f825-4886-b60f-27ae65e3e6c2")
+	)
+	(label "SNES.A14.Mod"
+		(at 267.97 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d60a031-d5ea-4953-a78b-2da86ccc3b74")
+	)
+	(label "GND"
+		(at 81.28 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b2cf9d-d421-413d-9c64-35755404151a")
+	)
+	(label "SNES.A15.GAL"
+		(at 325.12 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91ced6f6-8237-4b66-99d6-b179aa4ba55e")
+	)
+	(label "VCC"
+		(at 137.16 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c4d848-17f7-4f09-8c4d-d6526834ba05")
+	)
+	(label "SNES.A7"
+		(at 93.98 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96ad488b-1e68-4e85-9848-a19178712cec")
+	)
+	(label "SNES.A15.Mod"
+		(at 269.24 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a064c1a-9b50-416c-af49-d9346cbae982")
+	)
+	(label "SNES.PA1"
+		(at 143.51 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a9e0267-0553-42da-a1c8-2949e68427e7")
+	)
+	(label "SNES.A15"
+		(at 91.44 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bdbc156-9d91-413f-9c37-16b0ed8904c5")
+	)
+	(label "SNES.PA4"
+		(at 148.59 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ef8e86b-ea43-4909-b06b-fb9162bd175f")
+	)
+	(label "SNES.PA6"
+		(at 71.12 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f8b502e-e7d8-451c-b090-70db813e4f05")
+	)
+	(label "SNES.~{Cart}.Mod"
+		(at 270.51 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1c52469-4c92-479b-b6af-8267bdb4433d")
+	)
+	(label "SNES.D5"
+		(at 119.38 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1c87f12-8852-427b-a4f0-f916978676f3")
+	)
+	(label "SNES.BA4"
+		(at 104.14 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a21b5077-cf39-449d-ae4c-bf478e17eba7")
+	)
+	(label "SNES.BA2"
+		(at 97.79 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28d6e1b-0a98-4ed2-915e-11f3b7f7cf39")
+	)
+	(label "SNES.PA7"
+		(at 71.12 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2ee00f9-b461-4368-bf07-814d900f7ea6")
+	)
+	(label "SNES.A14.Sys"
+		(at 88.9 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaa8548f-9eee-47f5-9f45-36ee8a6a53dc")
+	)
+	(label "SNES.BA5.Mod"
+		(at 234.95 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab62af57-f068-4a00-b44b-0f694d36f652")
+	)
+	(label "SNES.CIC.P1"
+		(at 129.54 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae1a124d-8852-4cc3-bcae-86aa639e9373")
+	)
+	(label "SNES.BA4.Mod"
+		(at 236.22 110.49 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af2562f0-1d5b-41da-b054-a8cfe8c4dd26")
+	)
+	(label "SNES.BA6"
+		(at 350.52 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afa80965-1d9b-481d-ab57-4143668fd68b")
+	)
+	(label "SNES.BA3"
+		(at 101.6 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afc298b7-3d32-41ee-b60d-f7912bc28e9d")
+	)
+	(label "SNES.BA6.Mod"
+		(at 107.95 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b37f6817-30c3-41e6-a73e-c421f826e39e")
+	)
+	(label "SNES.A13.Sys"
+		(at 350.52 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43e99ad-a45b-429e-a594-20adeab35b2b")
+	)
+	(label "SNES.BA4.GAL"
+		(at 325.12 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5ba6063-59e9-464d-8f00-7ef97faf053e")
+	)
+	(label "SNES.A0"
+		(at 110.49 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b75cdbca-2a19-4dac-8564-8f26b32d1d07")
+	)
+	(label "SNES.A12"
+		(at 83.82 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7fe51b9-2d35-4303-93c0-3e6ce0652fa2")
+	)
+	(label "SNES.A7"
+		(at 92.71 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bae0cf16-3569-4847-bed0-456f2b596be3")
+	)
+	(label "SNES.D3"
+		(at 123.19 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbb50663-7040-4be4-bb59-937dd7afe7d3")
+	)
+	(label "VCC"
+		(at 337.82 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcfd2dda-12d1-4d9b-8f45-df638cefeab7")
+	)
+	(label "SNES.~{Cart}.Mod"
+		(at 113.03 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6c58d2-e9a4-4078-ac73-5ef22af4a87a")
+	)
+	(label "SNES.BA0"
+		(at 325.12 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c21a37f3-262b-4ac9-acc5-428abd0192b7")
+	)
+	(label "SNES.CIC.P6"
+		(at 132.08 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c220edb9-a153-4159-a209-da8f2b688b92")
+	)
+	(label "SNES.A5"
+		(at 99.06 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3cdaff0-639a-43d3-96b3-78ab8c9e0dd9")
+	)
+	(label "SNES.PA0"
+		(at 143.51 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c63f895e-b3d6-4121-a703-8d8a5944682c")
+	)
+	(label "SNES.L_Audio"
+		(at 151.13 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6e3242f-2463-498d-9570-f65e6eac0480")
+	)
+	(label "SNES.BA6.Mod"
+		(at 233.68 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cba27aa1-ea4e-4b60-91af-3fa749fdcf09")
+	)
+	(label "SNES.A14.Mod"
+		(at 87.63 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc4d3262-3489-471c-8460-7bcb9ce8da17")
+	)
+	(label "SNES.A14.GAL"
+		(at 262.89 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd3ebacc-1999-4e2b-ba18-6ca565b3c5b3")
+	)
+	(label "SNES.A5"
+		(at 97.79 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd8f1475-de66-4a08-831d-01f078a9ae7f")
+	)
+	(label "SNES.PA1"
+		(at 142.24 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc22893-28a2-4fc5-abb2-3140b31fd0ed")
+	)
+	(label "SNES.BA1"
+		(at 325.12 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2c779b3-885e-4a1b-85f5-a6575a562acd")
+	)
+	(label "SNES.CIC.P2"
+		(at 129.54 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2d9e421-0c00-4ea1-9034-3760c6131940")
+	)
+	(label "SNES.A13.Mod"
+		(at 85.09 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4f11050-f203-498a-bb32-dd10a6ba3637")
+	)
+	(label "SNES.A14.Sys"
+		(at 350.52 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6de45fa-9586-4d33-80e7-83c7189b653c")
+	)
+	(label "SNES.BA7"
+		(at 110.49 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8041d15-cf3f-4a52-a6c9-c974fe79ed77")
+	)
+	(label "SNES.~{PAWR}"
+		(at 73.66 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9752e15-054e-46b3-83eb-9b6018d92da6")
+	)
+	(label "SNES.PA5"
+		(at 148.59 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da5868f3-889c-4375-a2c8-835692bf4694")
+	)
+	(label "SNES.Refresh"
+		(at 69.85 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dab8fa66-337f-47c1-9e8e-2878199abc49")
+	)
+	(label "SNES.D4"
+		(at 116.84 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dea5959f-bbd7-4976-99a3-c8bb74aab939")
+	)
+	(label "SNES.A14.Sys"
+		(at 273.05 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dffef7aa-853a-4e41-b30a-e5bd0a252a8c")
+	)
+	(label "SNES.Clk"
+		(at 66.04 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1a07dd1-1eb5-4dad-be40-a6b68330c36d")
+	)
+	(label "SNES.D0"
+		(at 115.57 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3de01bf-8906-4831-95b9-2b8c84d9960a")
+	)
+	(label "SNES.~{Write}"
+		(at 127 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4249891-b35c-40eb-bdba-8e7c75c5f4a6")
+	)
+	(label "SNES.BA5"
+		(at 350.52 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e48cb2e6-af93-4b04-8bef-4d85352f896c")
+	)
+	(label "SNES.~{Read}"
+		(at 125.73 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e621c607-cd99-422f-8069-fb33187b5685")
+	)
+	(label "SNES.A8"
+		(at 91.44 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e87311ee-dc3e-4f3b-a14a-88d98c3f51ae")
+	)
+	(label "VCC"
+		(at 135.89 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea4de419-f139-4bcb-a732-bce8521aebd7")
+	)
+	(label "VCC"
+		(at 137.16 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecb50220-cb48-409e-ab10-02345774ef6e")
+	)
+	(label "SNES.BA5.GAL"
+		(at 229.87 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecd40b44-1623-44fe-9b42-933c18a41eee")
+	)
+	(label "GND"
+		(at 337.82 144.78 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee7f92af-7f15-45ee-b13b-7eac2f01cb2b")
+	)
+	(label "SNES.CIC.P7"
+		(at 130.81 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee9b8dda-bd7a-41d4-8fe2-70ca497558da")
+	)
+	(label "SNES.BA1"
+		(at 96.52 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eece4c9b-258c-4b2a-bd02-12dff164988f")
+	)
+	(label "SNES.PA0"
+		(at 142.24 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef2a71e2-e474-446c-aadc-df7f45b1b5a2")
+	)
+	(label "SNES.~{PARD}"
+		(at 73.66 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f15018a6-c66f-44cf-9db0-39e8318531a4")
+	)
+	(label "SNES.~{PAWR}"
+		(at 74.93 82.55 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f25ea26c-0948-4f95-8f79-9e171b928d1a")
+	)
+	(label "SNES.CIC.P6"
+		(at 130.81 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2b9c265-2b88-4f57-b5de-bf77b4384b9b")
+	)
+	(label "GND"
+		(at 81.28 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f49147ad-9ebe-4891-9cca-ade8119eb28c")
+	)
+	(label "SNES.BA0"
+		(at 92.71 157.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f496c1bb-9196-4886-a5e1-d1022f33d11a")
+	)
+	(label "SNES.~{Cart}.GAL"
+		(at 325.12 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f514b1a7-245e-4a1d-a6de-77a9e373dde9")
+	)
+	(label "SNES.A4"
+		(at 100.33 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6913caa-935a-440c-b671-0739b91aef98")
+	)
+	(label "SNES.A8"
+		(at 90.17 189.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7973344-3d64-4f74-86f3-53db5bf02b31")
+	)
+	(label "SNES.A13.Mod"
+		(at 307.34 165.1 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbc1df75-487f-4a88-89a4-6e5334ee94d7")
+	)
+	(label "SNES.D1"
+		(at 119.38 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd018e68-77c3-482c-a708-7571274122ba")
+	)
+	(label "SNES.BA6.GAL"
+		(at 228.6 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff665f0b-1ebf-493e-8118-ec3496fcfa13")
+	)
+	(symbol
+		(lib_id "!SMC:SNES_Connector_Sys")
+		(at 107.95 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "023371ec-99ec-48f7-94bd-27c8c0c12797")
+		(property "Reference" "J2"
+			(at 156.21 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 153.67 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "!SysCon:Bottom Connector"
+			(at 107.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b9d67d-0b27-4d57-99d9-d8fc15e1845f")
+		)
+		(pin "10"
+			(uuid "378d1fe7-e972-4e20-986c-b3a750d3020a")
+		)
+		(pin "11"
+			(uuid "8d3e9703-5708-4c52-880d-4729b3357e3f")
+		)
+		(pin "12"
+			(uuid "5464fa52-2406-4945-bcae-124e3a572d96")
+		)
+		(pin "13"
+			(uuid "3a7f6147-45f7-47bf-a328-b3a1387e7c5f")
+		)
+		(pin "14"
+			(uuid "dd84f1a2-264c-4968-aa03-e6c4ae9ec195")
+		)
+		(pin "15"
+			(uuid "aa5e7876-e5fe-4e32-af6f-a49c5fc1dc89")
+		)
+		(pin "16"
+			(uuid "adb40996-9713-4846-a14e-e4175acd1557")
+		)
+		(pin "17"
+			(uuid "1e2aa6f9-f4e4-4ee3-9201-e5cdd529a359")
+		)
+		(pin "18"
+			(uuid "c861ae71-7ad6-4635-bd84-8dc5ea2623f7")
+		)
+		(pin "19"
+			(uuid "625324be-b91d-433b-985b-9fe27c66424c")
+		)
+		(pin "2"
+			(uuid "596b46da-4c10-4c9e-87ca-a1d53a44667d")
+		)
+		(pin "20"
+			(uuid "886c4ab4-cbad-49e9-bd0b-ccdc99af4407")
+		)
+		(pin "21"
+			(uuid "b397b49a-d1d9-4629-b7d7-8a978bfe433c")
+		)
+		(pin "22"
+			(uuid "5ba8a554-4362-4bdf-8876-e844ba216955")
+		)
+		(pin "23"
+			(uuid "08914a25-ad1a-4335-8394-7bbd20c8b5ac")
+		)
+		(pin "24"
+			(uuid "57db7d80-53d5-41cd-a5e4-637250e6182f")
+		)
+		(pin "25"
+			(uuid "12939003-d856-4d7b-ab0a-81d44750e8b9")
+		)
+		(pin "26"
+			(uuid "e659dd29-ac96-48bf-a2d4-393c463692fc")
+		)
+		(pin "27"
+			(uuid "e2392cf2-5220-43b8-aa86-8e084d93cce9")
+		)
+		(pin "28"
+			(uuid "9df8b93d-6594-46f3-9caa-b9cc184fcbb4")
+		)
+		(pin "29"
+			(uuid "665ff38a-d6e2-4d71-bfde-8afa6d9057ca")
+		)
+		(pin "3"
+			(uuid "8db4bf54-9527-4c16-bdbc-eaf706931a73")
+		)
+		(pin "30"
+			(uuid "f79ee9b4-d039-43b8-af25-62f5a3f89bac")
+		)
+		(pin "31"
+			(uuid "bd2590d6-5c0d-4220-b17d-69390b47795d")
+		)
+		(pin "32"
+			(uuid "48a8b4f0-3aa8-4847-91c0-2a7382ce8395")
+		)
+		(pin "33"
+			(uuid "69d697bd-d421-402c-8250-6509428b4e46")
+		)
+		(pin "34"
+			(uuid "1c2f4eac-5d9c-476c-97e1-36a9e7d10d8f")
+		)
+		(pin "35"
+			(uuid "a5d6b6f0-d5b0-4805-a76c-5174682015c7")
+		)
+		(pin "36"
+			(uuid "efbbad39-8a02-44d6-85de-26276e87c14e")
+		)
+		(pin "37"
+			(uuid "2123ac9b-da84-4536-9c7b-75e3267318ac")
+		)
+		(pin "38"
+			(uuid "4a443d86-b2a6-42f7-9017-bb250816b897")
+		)
+		(pin "39"
+			(uuid "b57effb3-8517-4321-8cf3-53007ee879fa")
+		)
+		(pin "4"
+			(uuid "4ca2f9e2-1c5a-49ae-bd94-8ccc3515038b")
+		)
+		(pin "40"
+			(uuid "9b40147d-3e2e-4c3b-b1b5-9bc610902d9a")
+		)
+		(pin "41"
+			(uuid "c9253a81-6fae-4611-ac09-5b78093ed68a")
+		)
+		(pin "42"
+			(uuid "7fbb7ae7-1b68-418b-b502-038d42e85d6f")
+		)
+		(pin "43"
+			(uuid "c0228a21-01f4-428a-a691-66f12b343ca0")
+		)
+		(pin "44"
+			(uuid "9f702e3f-4a26-42c6-98fb-f91fc1521f4c")
+		)
+		(pin "45"
+			(uuid "570013a2-ef30-48ed-8b69-c2b03511ca9b")
+		)
+		(pin "46"
+			(uuid "5d7ccce8-77bd-4114-b135-ead06f5b6f7e")
+		)
+		(pin "47"
+			(uuid "fb9853c0-f68c-4515-b8ec-de55d84f8aab")
+		)
+		(pin "48"
+			(uuid "583ee25a-bd11-4044-8bb4-036c0dc94e5e")
+		)
+		(pin "49"
+			(uuid "5d4f2028-0368-4347-b496-e880d6536789")
+		)
+		(pin "5"
+			(uuid "27a048a3-c913-4e32-97ef-fe788233b12c")
+		)
+		(pin "50"
+			(uuid "e01ecaaf-bf7c-4345-a4d6-a5d71f469e00")
+		)
+		(pin "51"
+			(uuid "f9bd074b-92fb-4bbf-b526-cbf46e5b0277")
+		)
+		(pin "52"
+			(uuid "e836570e-a072-418a-b9d8-39df6935ca46")
+		)
+		(pin "53"
+			(uuid "e6813a41-a5be-44c8-b37b-99ebefdfc76c")
+		)
+		(pin "54"
+			(uuid "2d0e42f5-5580-4217-ab15-5ffeadcbde75")
+		)
+		(pin "55"
+			(uuid "55b0fdca-f021-4bc5-8575-746e0cad32ed")
+		)
+		(pin "56"
+			(uuid "3096a13f-a17c-404e-bb7c-513f98258e82")
+		)
+		(pin "57"
+			(uuid "217c6775-876a-43c5-b7dc-b28c1c29b777")
+		)
+		(pin "58"
+			(uuid "a7d327a3-1a63-48dc-aa2f-03b6e3e2cbeb")
+		)
+		(pin "59"
+			(uuid "1b823816-8511-4121-988e-96c5f87f5e1b")
+		)
+		(pin "6"
+			(uuid "b5cbf1a5-b48c-45c8-802e-8f0fb9963b53")
+		)
+		(pin "60"
+			(uuid "6a8548d7-dd90-4245-aee2-347415ef6591")
+		)
+		(pin "61"
+			(uuid "18a2693e-c9cb-4fdb-8ec7-7462f6804015")
+		)
+		(pin "62"
+			(uuid "ce487a76-c0be-4086-923e-3accbcdce558")
+		)
+		(pin "7"
+			(uuid "d4fdd013-75c3-440f-ba63-fa91f2b16af6")
+		)
+		(pin "8"
+			(uuid "1ebe94df-e011-402e-8eeb-15158e77d0bb")
+		)
+		(pin "9"
+			(uuid "b3e43588-abd2-4bc4-b6e6-614decfae0c7")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 267.97 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba88ea5-7929-484a-8405-d8cdad98b71f")
+		(property "Reference" "JP6"
+			(at 267.97 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A14"
+			(at 267.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 267.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 267.97 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "720a1981-a2a8-49c7-838f-a9891dde832d")
+		)
+		(pin "3"
+			(uuid "d8307f90-4f9c-4c40-9fd3-ddc837cb148c")
+		)
+		(pin "2"
+			(uuid "28d636dc-7f96-477c-8fe9-167f3a427ed0")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "!SMC:SNES_Connector_Game")
+		(at 109.22 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c03e3a1-011e-4a1a-a0bb-8e468321e2b2")
+		(property "Reference" "J1"
+			(at 157.48 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 154.94 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "!SysCon:Top Connector"
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a6be38-7574-430b-8c6a-3b14796f4adf")
+		)
+		(pin "10"
+			(uuid "8cc2b1bc-97fc-43f2-8bb1-e93cf7984420")
+		)
+		(pin "11"
+			(uuid "798bd5b0-2a3f-45ce-86af-dc428fd130f1")
+		)
+		(pin "12"
+			(uuid "95396cd8-878f-4ad7-844f-a015758b0eb8")
+		)
+		(pin "13"
+			(uuid "6bcad939-6a23-4406-8136-9f21607cfa31")
+		)
+		(pin "14"
+			(uuid "6ca282a4-197f-4449-8b55-2087cf0bd955")
+		)
+		(pin "15"
+			(uuid "5ac94683-57a2-4eec-acd6-f6ba048937cf")
+		)
+		(pin "16"
+			(uuid "78b82528-66bf-41ff-8999-2b81b1bc3d04")
+		)
+		(pin "17"
+			(uuid "44dbdd85-2369-4c34-a0f1-ae120a561cf9")
+		)
+		(pin "18"
+			(uuid "cb6543ab-2a1c-4710-9d8a-8d112741a983")
+		)
+		(pin "19"
+			(uuid "b2519be9-58c5-4369-9238-df2164df4b1f")
+		)
+		(pin "2"
+			(uuid "fcc75b42-9762-4cf3-99e8-17e6bd153c81")
+		)
+		(pin "20"
+			(uuid "754033b1-4e30-4208-a5a0-0fadcfbaa515")
+		)
+		(pin "21"
+			(uuid "45619ba1-29ca-4099-8c3f-b4d75f5c7e7d")
+		)
+		(pin "22"
+			(uuid "0095f373-1f7d-481e-9a17-52b5d4ad3a52")
+		)
+		(pin "23"
+			(uuid "b63e26e3-cbe0-4afa-8683-f376add3590e")
+		)
+		(pin "24"
+			(uuid "3f1d4ebd-062b-483b-83b9-e577a3cb67b1")
+		)
+		(pin "25"
+			(uuid "edb42a6d-27e8-400d-bdf0-920cb60267fb")
+		)
+		(pin "26"
+			(uuid "f6a88cf4-6a85-4c0a-999d-d0d1a83dd9a4")
+		)
+		(pin "27"
+			(uuid "e014d7e5-cf58-4aaa-bd2a-01d3f856b44f")
+		)
+		(pin "28"
+			(uuid "c4b17042-ac9e-4a72-a73a-d801dbd0f8a3")
+		)
+		(pin "29"
+			(uuid "a90a59c0-6214-4043-97cf-2bdd1f1ce87d")
+		)
+		(pin "3"
+			(uuid "47817e46-19d0-423f-988c-509ca9e34108")
+		)
+		(pin "30"
+			(uuid "4e9b5c43-ed36-4fa3-a204-af83810ae25d")
+		)
+		(pin "31"
+			(uuid "7243cf2c-aa02-4d97-a571-7adb14b127b0")
+		)
+		(pin "32"
+			(uuid "7c3b93a7-fb86-4b68-8272-1750efd0149e")
+		)
+		(pin "33"
+			(uuid "8a73bcdd-bcb6-495c-b4a5-1521efcc4f8a")
+		)
+		(pin "34"
+			(uuid "4c1e99c6-6597-4db9-8851-d963e2c2f1c2")
+		)
+		(pin "35"
+			(uuid "29281059-ce82-4873-9ef2-818aeb1b52f1")
+		)
+		(pin "36"
+			(uuid "67649847-b1e8-4ea0-b49c-f0023bc4de58")
+		)
+		(pin "37"
+			(uuid "6f36113c-7eb6-476e-be5a-0ea76f11d997")
+		)
+		(pin "38"
+			(uuid "94875976-1d44-4be5-b010-57d02c710eb7")
+		)
+		(pin "39"
+			(uuid "d9b04e0c-3757-4016-bb9e-9a7c22524533")
+		)
+		(pin "4"
+			(uuid "4d6c1fd9-57ed-4207-a6a1-f31ee874ffe5")
+		)
+		(pin "40"
+			(uuid "612b8bc2-c0b6-4248-8bc4-ee2c001ab039")
+		)
+		(pin "41"
+			(uuid "c2050dec-d9e4-49be-b019-b17372e179e4")
+		)
+		(pin "42"
+			(uuid "b12df298-9593-44e2-b945-e47e28038fba")
+		)
+		(pin "43"
+			(uuid "40a44b8a-c453-4b36-a5c2-0a35e905d8b9")
+		)
+		(pin "44"
+			(uuid "89379105-fc5d-4b4b-8e12-53f45c356d7b")
+		)
+		(pin "45"
+			(uuid "f4a7e290-33d3-45b5-8915-fbb8abdf0df0")
+		)
+		(pin "46"
+			(uuid "dd055686-5bbf-4380-9e9f-aac66d6979e2")
+		)
+		(pin "47"
+			(uuid "e1d8eaaa-cb19-449c-9478-5764ca01f10a")
+		)
+		(pin "48"
+			(uuid "92dc3f9f-d3ec-4c66-9e46-fb5e2ed28fcd")
+		)
+		(pin "49"
+			(uuid "7731f471-e147-4b4a-b3fb-a4523a2ed592")
+		)
+		(pin "5"
+			(uuid "26cf8b09-c2ad-48a5-9e69-79a7d693e2db")
+		)
+		(pin "50"
+			(uuid "8b3288b1-6b0f-43e1-a52e-27036c186713")
+		)
+		(pin "51"
+			(uuid "28091aa4-05d6-450e-9d7a-a9a4a0809612")
+		)
+		(pin "52"
+			(uuid "68a9e1ae-ec84-4c6a-aef6-fdbea5ad7953")
+		)
+		(pin "53"
+			(uuid "33583c7e-a127-4c21-a197-eb5781d998d5")
+		)
+		(pin "54"
+			(uuid "ab9289f3-68fc-4826-90e0-6f844ef7ebbd")
+		)
+		(pin "55"
+			(uuid "fc43d0e5-0531-4109-a9f9-a8448cc7dde9")
+		)
+		(pin "56"
+			(uuid "429aec8e-0d33-48a1-b356-fb10c1b1a796")
+		)
+		(pin "57"
+			(uuid "8865d0d9-cd74-4751-8bcc-da0757e7757d")
+		)
+		(pin "58"
+			(uuid "70f9d465-572b-428a-b88c-84eed3c5f0f6")
+		)
+		(pin "59"
+			(uuid "7478c2b3-f30c-46f5-ba46-447bb3e78801")
+		)
+		(pin "6"
+			(uuid "458965bf-34d3-4861-b114-d865958a631b")
+		)
+		(pin "60"
+			(uuid "57529afe-3bd3-43f3-9547-c89b30bab637")
+		)
+		(pin "61"
+			(uuid "9a8a7628-5621-4bac-aa8b-f5fad0a5a195")
+		)
+		(pin "62"
+			(uuid "0cc1f972-0b7f-4217-928e-53a6eec637f1")
+		)
+		(pin "7"
+			(uuid "0333c754-e8b3-4a77-b865-e483a2c5a7cc")
+		)
+		(pin "8"
+			(uuid "0aeed62f-2c5f-4384-b13f-b71cad4f2db6")
+		)
+		(pin "9"
+			(uuid "1fcdc579-9247-44ce-91cb-f9d85afc657f")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 270.51 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c85eea6-1a4e-459a-b102-caca8d8b7f8a")
+		(property "Reference" "JP4"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CART"
+			(at 270.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 270.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8570f55-2866-40bb-bb9c-ec37e6dda7fd")
+		)
+		(pin "3"
+			(uuid "2cd7f43f-8d0c-4ad8-9b7c-30c5478f7ae4")
+		)
+		(pin "2"
+			(uuid "a7ef2479-0657-45a8-82dc-22cf2261a799")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19b3c257-dc5c-45b0-9341-29223fa3667a")
+		(property "Reference" "C1"
+			(at 297.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 297.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 293.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "befe5917-5f89-48bd-a341-29abf637f0b8")
+		)
+		(pin "1"
+			(uuid "c8cfbbb7-aafe-4d04-84a4-7799784952ac")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 233.68 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35ce0503-d590-4a58-a0cc-823c1bda2267")
+		(property "Reference" "JP3"
+			(at 233.68 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BA6"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 233.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c187eee5-a3a2-4c5c-9a6e-422a91dd4846")
+		)
+		(pin "3"
+			(uuid "b0056bd1-f951-42b4-b4f6-fbe7e9b515f8")
+		)
+		(pin "2"
+			(uuid "515cb428-fc8b-43e8-b18a-b5a98c7a013a")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 307.34 161.29 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76f451b8-ce70-40c7-8978-b5326b3329bc")
+		(property "Reference" "JP7"
+			(at 307.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A13"
+			(at 307.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 307.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 307.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 307.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "385a107b-2b25-4b4c-84dd-46f181c0f48a")
+		)
+		(pin "3"
+			(uuid "6668b3b6-9c41-4c2e-a900-6f013ac589aa")
+		)
+		(pin "2"
+			(uuid "1017e8f2-3cef-4d5c-8192-e363f12e8121")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 236.22 106.68 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b2de97-65b3-4668-b94c-1fe72d55beb3")
+		(property "Reference" "JP1"
+			(at 236.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BA4"
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 236.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aade416c-1f78-478c-8291-ea5942be4b3d")
+		)
+		(pin "3"
+			(uuid "3986b49a-10a6-4ebf-bb97-84d27e0dbd35")
+		)
+		(pin "2"
+			(uuid "5ae478cd-ab70-439e-be19-97fd232ae5c5")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 269.24 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bade5f28-ec95-4de5-8a81-30b5a222e4e6")
+		(property "Reference" "JP5"
+			(at 269.24 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A15"
+			(at 269.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 269.24 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "239371f7-6112-4f18-ae27-c79987799bb2")
+		)
+		(pin "3"
+			(uuid "18677b19-6ddd-409f-96da-94b440404a7c")
+		)
+		(pin "2"
+			(uuid "00c83002-1603-4eb8-b74d-51dc4e7303e3")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 234.95 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1f6bc44-8867-4985-98c2-806359e4f09c")
+		(property "Reference" "JP2"
+			(at 234.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BA5"
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030892c5-e4bb-4c12-a046-36a847895cb5")
+		)
+		(pin "3"
+			(uuid "61a7adbe-79b4-4da6-836c-16fb30aea7d0")
+		)
+		(pin "2"
+			(uuid "0af23aa5-bfc0-40c5-abbc-7b6732bb3810")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_Programmable:GAL16V8")
+		(at 337.82 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4830517-da6a-4194-9fc1-2f594886454e")
+		(property "Reference" "U1"
+			(at 340.0141 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GAL16V8"
+			(at 340.0141 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+			(at 337.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"
+			(at 337.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a199a056-7928-4835-852d-7be4fb8d2f7a")
+		)
+		(pin "19"
+			(uuid "2491e215-d887-4536-b0d7-b65ea15125d4")
+		)
+		(pin "11"
+			(uuid "dc744293-a6de-499c-a8d3-2a52461c0518")
+		)
+		(pin "13"
+			(uuid "1f7d22c5-f691-4a94-99ee-c0528ebe5882")
+		)
+		(pin "12"
+			(uuid "8fe185e2-6dac-4f7f-b9c1-0ce7fe1567bc")
+		)
+		(pin "2"
+			(uuid "d2dd8e91-e271-4720-9513-8234f1027636")
+		)
+		(pin "15"
+			(uuid "35cd2b3c-0e0a-479c-82d1-2684fb446c90")
+		)
+		(pin "18"
+			(uuid "fc19ae06-dbcb-40eb-b0dd-afd36996035c")
+		)
+		(pin "1"
+			(uuid "4a43cfe3-2d7a-467d-a8a4-01b1f0907578")
+		)
+		(pin "3"
+			(uuid "e534ce0a-ed8e-4aae-8445-c990de83a3da")
+		)
+		(pin "4"
+			(uuid "19551249-8d7c-41af-8925-54e7377a143a")
+		)
+		(pin "7"
+			(uuid "23d66a7b-6f14-4fe7-893f-2cbfc0c54195")
+		)
+		(pin "9"
+			(uuid "929b347f-f03b-40c5-8126-6e82d17a4e2a")
+		)
+		(pin "10"
+			(uuid "048d093a-4289-4628-a054-d7454d62590e")
+		)
+		(pin "14"
+			(uuid "f629d2bb-1b7f-4a56-b315-c59b2c177450")
+		)
+		(pin "16"
+			(uuid "73545ab6-9a7e-4551-a007-c15b31ca864f")
+		)
+		(pin "6"
+			(uuid "d035731a-645c-4e1b-be84-0fa85270344e")
+		)
+		(pin "20"
+			(uuid "b14eaddc-3fa8-421d-9b25-964ef58d4ae4")
+		)
+		(pin "5"
+			(uuid "d057348b-6a71-46b7-b56e-6d5dd1e52136")
+		)
+		(pin "17"
+			(uuid "01792b1c-66d7-4131-8775-b29b03ea648c")
+		)
+		(instances
+			(project "SysCon"
+				(path "/cee11636-d300-4f31-addf-88ca03a84a7f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

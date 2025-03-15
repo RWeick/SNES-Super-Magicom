@@ -1,0 +1,48 @@
+Name     HIROMFIX;
+PartNo   00;
+Date     2023-08-14;
+Revision 01;
+Assembly None;
+Designer Unknown;
+Company  Unknown;
+Location ;
+Device   g16v8a;
+
+/* *************** INPUT PINS *********************/
+PIN  1 = a21_in;
+PIN  2 = a20_in;
+PIN  3 = a22_in;
+PIN  4 = a23_in;
+PIN  5 = a17_in;
+PIN  6 = a16_in;
+PIN  7 = a15_in;
+PIN  8 = a14_in;
+PIN  9 = a13_in;
+PIN 11 = cart_in;
+
+/* *************** OUTPUT PINS *********************/
+PIN 12 = a13_out;
+PIN 13 = a14_out;
+PIN 14 = a15_out;
+PIN 15 = cart_out;
+PIN 16 = nc_out;
+PIN 17 = a22_out;
+PIN 18 = a21_out;
+PIN 19 = a20_out;
+
+
+nc_out = 'b'1;
+
+a22_out = (a22_in & !a23_in) # (!a22_in & a21_in & !a15_in & a14_in & a13_in);
+a21_out = (a21_in # (a23_in & a22_in & !a15_in)) & !(a23_in & a22_in & a15_in);
+a20_out = a20_in # (!a22_in & a21_in & !a15_in & a14_in & a13_in);
+a15_out = a15_in # (a23_in & a22_in);
+a14_out = a14_in & (!(!a22_in & a21_in & !a15_in & a13_in) # a17_in);
+a13_out = a13_in & (!(!a22_in & a21_in & !a15_in & a14_in) # a16_in);
+
+/* original version: always enable /ROMSEL, this can't be right... */
+/* cart_out = 'b'0;*/
+
+/* enable disabled /ROMSEL for HIROM SRAM remapped regions */
+cart_out = cart_in & !(!a22_in & a21_in & !a15_in & a14_in & a13_in);
+
