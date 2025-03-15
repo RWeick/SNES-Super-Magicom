@@ -12,4 +12,4 @@ The system connector board has been modified to allow for the HiROM mod to be in
 
 ![image](https://github.com/RWeick/SNES-Super-Magicom/blob/main/RAM.png)
 
-![image](https://github.com/RWeick/SNES-Super-Magicom/blob/main/SysCon.png)
+![image](https://github.com/RWeick/SNES-Super-Magicom/blob/main/SysCon1.png)
